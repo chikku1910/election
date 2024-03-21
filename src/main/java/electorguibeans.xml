@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+<bean id="window" class="org.mgm.elector.gui.ElectionApplication" />
+<bean id="username" class="javax.swing.JTextField" primary="true">
+<property name="text" value="admin"></property>
+</bean>
+<bean id="password" class="javax.swing.JPasswordField">
+<property name="text" value="12345"></property>
+</bean>
+<bean id="mgmelectionpanel" class="org.mgm.elector.gui.MGMElectionPanel"/>
+<bean id="builder" class="org.mgm.elector.gui.StudentBuilder"/>
+<bean id="votepanel" class="org.mgm.elector.gui.VotingPanel" />
+<bean id="view" class="org.mgm.elector.gui.ElectionViewPanel" />
+<bean id="winners" class="org.mgm.elector.gui.WinnerPanel" />
+
+</beans>

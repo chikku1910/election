@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+        <bean id="studentdaobean" class="org.mgm.elector.model.StudentDAOImp"/>
+        <bean id="electiondaobean" class="org.mgm.elector.model.ElectionDaoImp"/>
+        <bean id="designationdaobean" class="org.mgm.elector.model.DesignationDaoImp"/>
+        <bean id="nomineedaobean" class="org.mgm.elector.model.NomineeDaoImp"/>
+</beans>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><election>
+
+<username id="user">admin</username>
+<password id="pass">12345</password>
+
+<electionid>006</electionid>
+<designationid>31</designationid>
+<nomineeid>34</nomineeid>
+</election>
