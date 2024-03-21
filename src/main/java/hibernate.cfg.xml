@@ -3,8 +3,13 @@
                                          "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
  <session-factory >
+<<<<<<< HEAD
   <property name="hibernate.connection.driver_class ">com.mysql.cj.jdbc.Driver</property>
   <property name="hibernate.connection.password">chikku@1910</property>
+=======
+  <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+  <property name="hibernate.connection.password">12345</property>
+>>>>>>> 7abb8618609d3da15c157934414557c2fc1c3592
   <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/election</property>
   <property name="hibernate.connection.username">root</property>
   <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
